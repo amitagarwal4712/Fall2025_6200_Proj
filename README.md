@@ -1,4 +1,6 @@
 # Fall2025_6200_Proj
+NOTE: install pycryptodome with command before execute any function as prequiste :      pip install pycryptodome
+
 #Task # 1
   1) Signature_Function.py - This file contains the functions for Digital Signature and RSA Ditgital Signature for Key Generation, Hashing, Sign and verify
       Digital Signature: Following are functions created and called from DigitalSign.py file 
