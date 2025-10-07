@@ -20,9 +20,6 @@ install dependencies:
 ```bash
 pip install pycryptodome
 
-## 🧰 Task # 1
+##  Task # 1
 
-install dependencies:
-
-```bash
-pip install pycryptodome
+python DigitalSign.py -g key
