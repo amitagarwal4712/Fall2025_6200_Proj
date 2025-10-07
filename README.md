@@ -16,7 +16,7 @@ A brief description of what this Python project does and who it's for.
 
 ## 🧰 Installation
 
-Clone the repository and install dependencies:
+Install dependencies:
 
 ```bash
 
@@ -24,7 +24,7 @@ pip install pycryptodome
 
 ## 📈 Usage
 
-Usage
+Usage:
 ```bash
 
 python RSADigitalSign.py -g key
