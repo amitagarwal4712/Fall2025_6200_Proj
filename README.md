@@ -43,3 +43,7 @@ Provide an example of how to use it:
 
 $ python script.py --input data.txt
 Output: Processed data saved to output.txt
+
+If no requirements.txt:
+
+pip install somepackage anotherpackage
