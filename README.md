@@ -25,8 +25,5 @@ pip install pycryptodome
 
 ## 📈 Usage
 
-Clone the repository and install dependencies:
+Usage
 
-```bash
-
-pip install pycryptodome
