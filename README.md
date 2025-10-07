@@ -22,7 +22,6 @@ Clone the repository and install dependencies:
 
 pip install pycryptodome
 
-
 ## 📈 Usage
 
 Usage
