@@ -18,30 +18,11 @@ A brief description of what this Python project does and who it's for.
 install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install pycryptodome
 
-##  If no requirements.txt:
+## 🧰 Task # 1
 
-pip install somepackage anotherpackage
+install dependencies:
 
-## Usage
-
-Run the Python script:
-
-python main.py
-
-
-Or, if it's a module:
-
-python -m your_module_name
-
-🧪 Example
-
-Provide an example of how to use it:
-
-$ python script.py --input data.txt
-Output: Processed data saved to output.txt
-
-If no requirements.txt:
-
-pip install somepackage anotherpackage
+```bash
+pip install pycryptodome
