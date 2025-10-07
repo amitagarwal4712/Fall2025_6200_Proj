@@ -23,7 +23,10 @@ Clone the repository and install dependencies:
 pip install pycryptodome
 
 
-## 🛠️ Requirements## 📈 Usage
+## 📈 Usage
 
 Usage
+```bash
+
+python RSADigitalSign.py -g key
 
