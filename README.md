@@ -28,7 +28,7 @@ If no requirements.txt:
 
 pip install somepackage anotherpackage
 
-📈 Usage
+## 📈 Usage
 
 Run the Python script:
 
@@ -46,7 +46,7 @@ Provide an example of how to use it:
 $ python script.py --input data.txt
 Output: Processed data saved to output.txt
 
-📂 Project Structure
+## 📂 Project Structure
 project-name/
 ├── main.py
 ├── module/
