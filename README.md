@@ -32,7 +32,7 @@ python DigitalSign.py -v verify -m "message used while signed in function 3" -pk
 ```
 Output: 1 if verified, 0 if verification failed
 
-## 🚀 Task # 1 - Digital Signature - RSA style based on 2 prime factor p and q, 
+## 🚀 Task # 1 - Digital Signature - RSA style based on 2 prime factor p and q 
 ### Function 1- Key Generation
 ```bash
 python RSADigitalSign.py -g key
