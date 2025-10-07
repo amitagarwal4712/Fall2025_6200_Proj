@@ -21,3 +21,12 @@ Clone the repository and install dependencies:
 ```bash
 
 pip install pycryptodome
+
+
+## 📈 Usage
+
+Clone the repository and install dependencies:
+
+```bash
+
+pip install pycryptodome
