@@ -22,4 +22,5 @@ pip install pycryptodome
 
 ##  Task # 1
 
+```bash
 python DigitalSign.py -g key
