@@ -22,7 +22,7 @@ git clone https://github.com/yourusername/project-name.git
 cd project-name
 pip install -r requirements.txt
 
-If no requirements.txt:
+##  If no requirements.txt:
 
 pip install somepackage anotherpackage
 
