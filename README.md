@@ -15,11 +15,9 @@ A brief description of what this Python project does and who it's for.
 
 ## 🧰 Installation
 
-Clone the repository and install dependencies:
+install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/project-name.git
-cd project-name
 pip install -r requirements.txt
 
 ##  If no requirements.txt:
