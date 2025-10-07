@@ -26,7 +26,7 @@ If no requirements.txt:
 
 pip install somepackage anotherpackage
 
-Usage
+## Usage
 
 Run the Python script:
 
