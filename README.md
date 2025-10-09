@@ -99,19 +99,19 @@ python task3_keyderivation.py -k <secretkey> -n <times to be hashed>
 ``` 
 ## 🚀 Task # 4 - Pseudo-Random Number Generation (PRNG)
 ### Step -1 - function screenshot, attached in document
-### Step -2 - Randomness, sequence of output
+### Step -2 - Randomness, sequence of output, -n means how many number need to generate
 ```bash
-python task4_PRNG.py -s <seed value>
+python task4_PRNG.py -s <seed value> -n <count>
 ``` 
-### Step -3 - Deterministic, 2 sequence of output with same seeded value, execute following command with same sees value
+### Step -3 - Deterministic, 2 sequence of output with same seeded value, execute following command with same sees value , -n means how many number need to generate
 ```bash
-python task4_PRNG.py -s <seed value>
+python task4_PRNG.py -s <seed value>  -n <count>
 ```  
-### Step -4 - seeding(re-seeding) impact - put same seed value for both of following commands and reseed value in 2nd command
+### Step -4 - seeding(re-seeding) impact - put same seed value for both of following commands and reseed value in 2nd command, -n means how many number need to generate
 ```bash
-python task4_PRNG.py -s <seed value>
+python task4_PRNG.py -s <seed value>  -n <count>
 ```
 ```bash
-python task4_PRNG.py -s <seed value>  -r <reseed value>
+python task4_PRNG.py -s <seed value>  -r <reseed value>  -n <count>
 ``` 
 
