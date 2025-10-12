@@ -10,8 +10,8 @@ def reseed(reseedvalue):
     return random.seed(reseedvalue)
 
 def generate():
-    random.randint(1, 269269811)
-    return random.random()
+    return random.randint(1000000000000000, 9999999999999999)
+
 
 #Task 4 PRNG for randomness generation SEED, RESEED, GENERATE
 def main():
@@ -26,7 +26,7 @@ def main():
     if(args.reseedvalue):
         reseed(args.reseedvalue)
     for m in range(0,args.count):
-        randomValue = generate()         # random number generation      e.g.  python task4_PRNG.py -s <seed value> -r <reseed value>
+        randomValue = generate()         # random number generation      e.g.  python task4_PRNG.py -s <seed value> -r <reseed value> -n <number generation count>
         print(f"{randomValue}")
 
 if __name__ == "__main__":
