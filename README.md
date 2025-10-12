@@ -86,7 +86,7 @@ output: Returns 1 if verification is successfull else returns 0
 
 ### Step 4- Compute the shared secret g<sup>ab</sup>ModP<br>Alice and Bob can run this on their terminal
 ```bash
-python task2_Diffie_hellman_exchg.py -c calculate -p <a or b  value> -s <g<sup>a</sup>modp or g<sup>b</sup>mod p>
+python task2_Diffie_hellman_exchg.py -c calculate -p <a or b  value> -s <gamodp or gbmod p>
 ```
 output: Computed secret value g<sup>ab</sup>ModP
 
@@ -129,7 +129,7 @@ Output: returns different sequence from previous one of different n random numbe
 python task5_SecureMessageExchange.py -sk <secret key from task 3 derivated function> -hk <secret key from task 3 derivated function> -i <IV from task #4 PRNG> -m <message>
 ```
 Input: -sk    secret key,  -hk    HMAC prime key,  -i    IV,  -m  message
-Output: Ciphertext + HMAC tag
+<br>Output: Ciphertext + HMAC tag
 
 ### Step -2 -HMAC verification then decrypt function  <br>This first calls HMAC verification if successful then calls sym_dec function to return plain text <br> Secret key from task #3 derivated function used <br> HMAC key , used same as secret key
 ```bash
