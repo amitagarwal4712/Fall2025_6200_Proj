@@ -122,3 +122,17 @@ Output: returns sequence of n different random numbers
 python task4_PRNG.py -s <seed value>  -r <reseed value>  -n <count>
 ``` 
 Output: returns different sequence from previous one of different n random numbers because of reseeded value for same seed value
+
+## 🚀 Task # 5 - Secure Message Exchange
+### Step -1 - Encrypt then HMAC function  <br>This first calls sym_enc function (AES-CBC encryption), which returns the IV+Cipher Text <br> then HMAC function is called which used this IV+CipherText as message and returns CipherText + HMAC TAG <br> Secret key from task #3 derivated function used <br> HMAC key , used same as secret key<br> IV from task #4
+```bash
+python task5_SecureMessageExchange.py -sk <secret key from task 3 derivated function> -hk <secret key from task 3 derivated function> -i <IV from task #4 PRNG> -m <message>
+```
+Input: -sk    secret key,  -hk    HMAC prime key,  -i    IV,  -m  message
+Output: Ciphertext + HMAC tag
+
+### Step -2 -HMAC verification then decrypt function  <br>This first calls HMAC verification if successful then calls sym_dec function to return plain text <br> Secret key from task #3 derivated function used <br> HMAC key , used same as secret key
+```bash
+python task5_SecureMessageExchange.py -sk <secret key from task 3 derivated function> -hk <secret key from task 3 derivated function>  -c <output of Step 1 >
+```
+Output: If HMAC tag is verified successfully, returns the plain text else returns the tag tempered message 
