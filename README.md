@@ -147,3 +147,9 @@ Input: -sk    secret key,  -hk    HMAC prime key,  -i    IV,  -m  message
 python task5_SecureMessageExchange.py -sk <secret key from task 3 derivated function> -hk <secret key from task 3 derivated function>  -c <output of Step 1 >
 ```
 Output: If HMAC tag is verified successfully, returns the plain text else returns the tag tempered message 
+
+## 🚀 Task # 6 - Secure Message Exchange Tampering experiment (Optional Task) - This is command with inputed value from document for assignment with tempered text, last character in -c is changed from 1 to 2
+```bash
+python task5_SecureMessageExchange.py -sk "c6858aa558f87d3d2ac222d009482974" -hk "c6858aa558f87d3d2ac222d009482974"  -c "OTA5MjU0MzAzMTE2NzI5OTTEqj/FuiNgl2AIJYcDt2tKdkCo+pPSv3a5JpTVcO1V8BabfHbdgGGOhw7bsRQHQYCic1LCU1h4pNe1szlEA1E=fa07dafd7dc47ab55becdd5525070cc025c2ab8dd4953a5c9e81d36b9b702fb2"
+```
+Output: MAC tag verification failed. Either message or tag may be compromised.
