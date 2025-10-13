@@ -15,16 +15,22 @@ pip install pycryptodome
 ```bash
 python DigitalSign.py -g key
 ```
+Output: Returns Public and private key pair
+
 ### Function 2- Hash message
 
 ```bash
 python DigitalSign.py -m "This is message to Bob from Alice"
 ```
+Output: Returns hashed message
+
 ### Function 3- Sign a message
 
 ```bash
 python DigitalSign.py -s sign -m "this is from alice to bob" -sk <"private key from Function 1 output">
 ```
+Output: Returns signature for the message
+
 ### Function 4- Verify signtaure message
 
 ```bash
@@ -37,16 +43,21 @@ Output: 1 if verified, 0 if verification failed
 ```bash
 python RSADigitalSign.py -g key
 ```
+Output: Returns private key d, Public key N, public exponent key e
+
 ### Function 2- Hash message
 
 ```bash
 python RSADigitalSign.py -m "This is message to Bob from Alice"
 ```
+Output: Returns hashed message
 ### Function 3- Sign a message
 
 ```bash
 python RSADigitalSign.py -s sign -m "this is the message from alice to Bob" -d "private key 'd' from Function 1" -N "public key 'N' from function 1"
 ```
+Output: Returns signature for the message
+
 ### Function 4- Verify signtaure message
 
 ```bash
